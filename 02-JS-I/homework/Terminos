@@ -1,0 +1,45 @@
+* Variables
+Las variables son una manera de guardar cosas para poder usarlos más tarde, por ejemplo, si quiero que cuando escriba "perro" me salga el nombre de mi perro, que es Coca, con la variable lo que puedo hacer es guardar ese dato o información para usarlo después cuando lo necesite.
+var perro = "Coca"
+
+
+ * Strings
+Los strings son cadenas de letras, pueden tener sentido o no depende de lo que quieras poner, ya sea un nombre, un objeto, o letras al azar; y siempre van entre "comillas", eso es lo que los diferencia entre los demás.
+
+
+ * Funciones (argumentos, `return`)
+Las funciones sirven para no escribir siempre lo mismo una y otra vez, por ejemplo, en vez de ir preguntando persona por persona cual es su nombre por qué no reunirlos todos y preguntarles de una vez, y que vayan respondiendo de a poco o cuando quieran; las funciones son algo asi, se reunen o juntan los códigos los cuales se guardan y luego se pueden usar cuando queramos o cuando lo necesitemos.
+
+Los argumentos están en las funciones y sirven para poner la información que te den más adelante, es decir, si queres que te digan el nombre, eso lo pones como argumento (nombre) y después se lo reemplazará por el nombre que te digan.
+
+El return es para que nos diga una cosa y nada más, por ejemplo, si queremos que nos diga el nombre, al return le decimos eso y nos lo dira, y no va a agregar el apellido o la edad, solo nos va a mostrar lo que queremos; o también se puede usar para cortar el código y que evite seguir con lo que tenga más adelante.
+
+Un ejemplo para todo esto:
+function presentarme (nombre) {
+  console.log ("Cómo te llamas?");
+  return nombre;
+}
+
+Después ponemos el nombre de la función y el nombre, eso si, lo que queramos poner en los argumentos siempre van entre paréntesis y entre comillas: presentarme ("Ana")
+
+
+ * Declaraciones `if`
+Las declaraciones "if" se usan para ver si tal número es mayor, menor o igual a otro número y a la vez que te diga un mensaje. Es decir, podemos usarlo si queres saber si una persona tiene la edad para entrar a la escuela primaria a estudiar o no.
+
+Por ejemplo:
+
+if (edad > 5) {
+    console.log ("puede entrar");
+} else {
+    console.log ("no puede entrar");
+}
+
+Si la persona es mayor de 5 años puede entrar, si no es mayor de 5 años entonces no puede entrar.
+
+ * Valores booleanos (`true`, `false`)
+Los valores booleanos sirven para saber si cierta información es verdadera o falsa, nada más que eso.
+
+Por ejemplo:
+5 > 4
+
+Aca estamos preguntando si 5 es mayor que 4, como es verdadero nos dira "true", pero si fuera que preguntamos si 5 es mayor que 6 nos dira que no, entonces nos saldra "false". 
